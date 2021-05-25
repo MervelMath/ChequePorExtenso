@@ -1,0 +1,16 @@
+C:\Users\theem\source\repos\ChequeEmExtenso.ConsoleApp\ChequeEmExtenso.ConsoleApp\bin\Debug\net5.0\ChequeEmExtenso.ConsoleApp.exe
+C:\Users\theem\source\repos\ChequeEmExtenso.ConsoleApp\ChequeEmExtenso.ConsoleApp\bin\Debug\net5.0\ChequeEmExtenso.ConsoleApp.deps.json
+C:\Users\theem\source\repos\ChequeEmExtenso.ConsoleApp\ChequeEmExtenso.ConsoleApp\bin\Debug\net5.0\ChequeEmExtenso.ConsoleApp.runtimeconfig.json
+C:\Users\theem\source\repos\ChequeEmExtenso.ConsoleApp\ChequeEmExtenso.ConsoleApp\bin\Debug\net5.0\ChequeEmExtenso.ConsoleApp.runtimeconfig.dev.json
+C:\Users\theem\source\repos\ChequeEmExtenso.ConsoleApp\ChequeEmExtenso.ConsoleApp\bin\Debug\net5.0\ChequeEmExtenso.ConsoleApp.dll
+C:\Users\theem\source\repos\ChequeEmExtenso.ConsoleApp\ChequeEmExtenso.ConsoleApp\bin\Debug\net5.0\ref\ChequeEmExtenso.ConsoleApp.dll
+C:\Users\theem\source\repos\ChequeEmExtenso.ConsoleApp\ChequeEmExtenso.ConsoleApp\bin\Debug\net5.0\ChequeEmExtenso.ConsoleApp.pdb
+C:\Users\theem\source\repos\ChequeEmExtenso.ConsoleApp\ChequeEmExtenso.ConsoleApp\obj\Debug\net5.0\ChequeEmExtenso.ConsoleApp.csprojAssemblyReference.cache
+C:\Users\theem\source\repos\ChequeEmExtenso.ConsoleApp\ChequeEmExtenso.ConsoleApp\obj\Debug\net5.0\ChequeEmExtenso.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\theem\source\repos\ChequeEmExtenso.ConsoleApp\ChequeEmExtenso.ConsoleApp\obj\Debug\net5.0\ChequeEmExtenso.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\theem\source\repos\ChequeEmExtenso.ConsoleApp\ChequeEmExtenso.ConsoleApp\obj\Debug\net5.0\ChequeEmExtenso.ConsoleApp.AssemblyInfo.cs
+C:\Users\theem\source\repos\ChequeEmExtenso.ConsoleApp\ChequeEmExtenso.ConsoleApp\obj\Debug\net5.0\ChequeEmExtenso.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\theem\source\repos\ChequeEmExtenso.ConsoleApp\ChequeEmExtenso.ConsoleApp\obj\Debug\net5.0\ChequeEmExtenso.ConsoleApp.dll
+C:\Users\theem\source\repos\ChequeEmExtenso.ConsoleApp\ChequeEmExtenso.ConsoleApp\obj\Debug\net5.0\ref\ChequeEmExtenso.ConsoleApp.dll
+C:\Users\theem\source\repos\ChequeEmExtenso.ConsoleApp\ChequeEmExtenso.ConsoleApp\obj\Debug\net5.0\ChequeEmExtenso.ConsoleApp.pdb
+C:\Users\theem\source\repos\ChequeEmExtenso.ConsoleApp\ChequeEmExtenso.ConsoleApp\obj\Debug\net5.0\ChequeEmExtenso.ConsoleApp.genruntimeconfig.cache
