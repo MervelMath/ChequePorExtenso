@@ -18,7 +18,7 @@ namespace Validar.Test
 
 
         [TestMethod]
-        public void TestMethod2()
+        public void ValidarDezenaComCentavo()
         {
             Numeros numeroTeste = new Numeros();
             string test = numeroTeste.ConvertToWords("10,05");
@@ -27,7 +27,7 @@ namespace Validar.Test
         }
 
         [TestMethod]
-        public void TestMethod3()
+        public void ValidarDezenaComDezenaDeCentavo()
         {
             Numeros numeroTeste = new Numeros();
             string test = numeroTeste.ConvertToWords("10,25");
@@ -38,7 +38,7 @@ namespace Validar.Test
        
 
         [TestMethod]
-        public void TestMethod4()
+        public void ValidarCentena()
         {
             Numeros numeroTeste = new Numeros();
             string test = numeroTeste.ConvertToWords("110,00");
@@ -47,7 +47,7 @@ namespace Validar.Test
         }
 
         [TestMethod]
-        public void TestMethod5()
+        public void ValidarDezenaPura()
         {
             Numeros numeroTeste = new Numeros();
             string test = numeroTeste.ConvertToWords("10,00");
@@ -56,7 +56,7 @@ namespace Validar.Test
         }
 
         [TestMethod]
-        public void TestMethod6()
+        public void ValidarUmReal()
         {
             Numeros numeroTeste = new Numeros();
             string test = numeroTeste.ConvertToWords("1,00");
@@ -65,7 +65,7 @@ namespace Validar.Test
         }
 
         [TestMethod]
-        public void TestMethod7()
+        public void VallidarCentavoPuro()
         {
             Numeros numeroTeste = new Numeros();
             string test = numeroTeste.ConvertToWords("0,05");
@@ -74,7 +74,7 @@ namespace Validar.Test
         }
 
         [TestMethod]
-        public void TestMethod8()
+        public void ValidarUmCentavo()
         {
             Numeros numeroTeste = new Numeros();
             string test = numeroTeste.ConvertToWords("0,01");
@@ -83,7 +83,7 @@ namespace Validar.Test
         }
 
         [TestMethod]
-        public void TestMethod9()
+        public void ValidarDuzentos()
         {
             Numeros numeroTeste = new Numeros();
             string test = numeroTeste.ConvertToWords("200,00");
@@ -92,7 +92,7 @@ namespace Validar.Test
         }
 
         [TestMethod]
-        public void TestMethod10()
+        public void ValidarTrezentos()
         {
             Numeros numeroTeste = new Numeros();
             string test = numeroTeste.ConvertToWords("300,00");
@@ -101,7 +101,7 @@ namespace Validar.Test
         }
 
         [TestMethod]
-        public void TestMethod11()
+        public void ValidarTrezentosComDEzenaECentavos()
         {
             Numeros numeroTeste = new Numeros();
             string test = numeroTeste.ConvertToWords("310,25");
@@ -110,7 +110,7 @@ namespace Validar.Test
         }
 
         [TestMethod]
-        public void TestMethod12()
+        public void ValidarUmMilhao()
         {
             Numeros numeroTeste = new Numeros();
             string test = numeroTeste.ConvertToWords("1000000,00");
@@ -119,7 +119,7 @@ namespace Validar.Test
         }
 
         [TestMethod]
-        public void TestMethod13()
+        public void ValidarCemMil()
         {
             Numeros numeroTeste = new Numeros();
             string test = numeroTeste.ConvertToWords("100000,00");
@@ -128,7 +128,7 @@ namespace Validar.Test
         }
 
         [TestMethod]
-        public void TestMethod14()
+        public void ValidarNumeroGrandeMilhao()
         {
             Numeros numeroTeste = new Numeros();
             string test = numeroTeste.ConvertToWords("206699000,00");
@@ -137,7 +137,7 @@ namespace Validar.Test
         }
 
         [TestMethod]
-        public void TestMethod15()
+        public void ValidarNumeroGrandeMilhaoComCentavos()
         {
             Numeros numeroTeste = new Numeros();
             string test = numeroTeste.ConvertToWords("206699000,05");
@@ -146,7 +146,7 @@ namespace Validar.Test
         }
 
         [TestMethod]
-        public void TestMethod16()
+        public void ValidarMilhaoComCentavos()
         {
             Numeros numeroTeste = new Numeros();
             string test = numeroTeste.ConvertToWords("1000000,05");
@@ -155,7 +155,7 @@ namespace Validar.Test
         }
 
         [TestMethod]
-        public void TestMethod17()
+        public void ValidarUmBilhao()
         {
             Numeros numeroTeste = new Numeros();
             string test = numeroTeste.ConvertToWords("1000000000,00");
@@ -164,7 +164,7 @@ namespace Validar.Test
         }
 
         [TestMethod]
-        public void TestMethod18()
+        public void ValidarDezMilComCentavos()
         {
             Numeros numeroTeste = new Numeros();
             string test = numeroTeste.ConvertToWords("10000,05");
