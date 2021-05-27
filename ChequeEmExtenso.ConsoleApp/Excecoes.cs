@@ -10,8 +10,12 @@ namespace ChequeEmExtenso.ConsoleApp
             bool testarValidacao = true;
 
             testarValidacao = ValidarFormato(numero);
+            if (testarValidacao == false)
+                return false;
 
             testarValidacao = ValidarQuantia(numero);
+            if (testarValidacao == false)
+                return false;
 
             testarValidacao = ValidarVirgula(numero);
 
