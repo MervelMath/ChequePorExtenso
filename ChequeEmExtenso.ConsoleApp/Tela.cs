@@ -30,8 +30,6 @@ namespace ChequeEmExtenso.ConsoleApp
 
             else
                 CriarCheque();
-            
-
         }
     }
 }

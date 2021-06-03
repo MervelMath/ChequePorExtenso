@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "PGIsWQVpuZxfs7e3s7J8jD2FAyvE0oCgQoy4a+FTapxntS5F29ELDa8IiQ54Yhf37TeZRsDLNRJnEgQRMWc4MA==",
+  "dgSpecHash": "SiZb2ACKNPZ4i+9LLd+khvJqKI9nGjyc5biKpg29TQk+gbLU4VPyUOx55uOOUJjkH1rTPVw7sAKC/l2XCt5muw==",
   "success": true,
   "projectFilePath": "C:\\Users\\theem\\source\\repos\\ChequeEmExtenso.ConsoleApp\\Validar.Test\\Validar.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\theem\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
+    "C:\\Users\\theem\\.nuget\\packages\\coverlet.msbuild\\3.0.3\\coverlet.msbuild.3.0.3.nupkg.sha512",
     "C:\\Users\\theem\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",
     "C:\\Users\\theem\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\theem\\.nuget\\packages\\microsoft.net.test.sdk\\16.7.1\\microsoft.net.test.sdk.16.7.1.nupkg.sha512",

@@ -1,36 +1,39 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ChequeEmExtenso.ConsoleApp;
-
 namespace Validar.Test
 {
     [TestClass]
     public class UnitTest1
     {
-      //  [TestMethod]
-      //  public  void TestMethod1()
-      //  {
-      //      Tela tela = new Tela();
-      //      string test = tela.Entrada
-      //
-      //      Assert.AreEqual("dez", test);
-      //  }
 
-
+        /// <summary>
+        /// USE SEMPRE VÍRGULLA PARA DEFINIR AS CASAS DOS CENTAVOS, AINDA QUE VALHAM ZERO (00).
+        /// </summary>
 
         [TestMethod]
         public void ValidarDezenaComCentavo()
         {
-            Numeros numeroTeste = new Numeros();
-            string test = numeroTeste.ConvertToWords("10,05");
+            Controlador numeroTeste = new Controlador();
+            string test = numeroTeste.ConverterParaExtenso("10,05");
 
             Assert.AreEqual("dez reais e cinco centavos", test);
         }
 
         [TestMethod]
+        public void ValidarMaisDeMilMenosDeDoisMil()
+        {
+            Controlador numeroTeste = new Controlador();
+            string test = numeroTeste.ConverterParaExtenso("1001,00");
+
+            Assert.AreEqual("mil e um reais", test);
+        }
+
+
+        [TestMethod]
         public void ValidarDezenaComDezenaDeCentavo()
         {
-            Numeros numeroTeste = new Numeros();
-            string test = numeroTeste.ConvertToWords("10,25");
+            Controlador numeroTeste = new Controlador();
+            string test = numeroTeste.ConverterParaExtenso("10,25");
 
             Assert.AreEqual("dez reais e vinte e cinco centavos", test);
         }
@@ -40,8 +43,8 @@ namespace Validar.Test
         [TestMethod]
         public void ValidarCentena()
         {
-            Numeros numeroTeste = new Numeros();
-            string test = numeroTeste.ConvertToWords("110,00");
+            Controlador numeroTeste = new Controlador();
+            string test = numeroTeste.ConverterParaExtenso("110,00");
 
             Assert.AreEqual("cento e dez reais", test);
         }
@@ -49,8 +52,8 @@ namespace Validar.Test
         [TestMethod]
         public void ValidarDezenaPura()
         {
-            Numeros numeroTeste = new Numeros();
-            string test = numeroTeste.ConvertToWords("10,00");
+            Controlador numeroTeste = new Controlador();
+            string test = numeroTeste.ConverterParaExtenso("10,00");
 
             Assert.AreEqual("dez reais", test);
         }
@@ -58,8 +61,8 @@ namespace Validar.Test
         [TestMethod]
         public void ValidarUmReal()
         {
-            Numeros numeroTeste = new Numeros();
-            string test = numeroTeste.ConvertToWords("1,00");
+            Controlador numeroTeste = new Controlador();
+            string test = numeroTeste.ConverterParaExtenso("1,00");
 
             Assert.AreEqual("um real", test);
         }
@@ -67,8 +70,8 @@ namespace Validar.Test
         [TestMethod]
         public void VallidarCentavoPuro()
         {
-            Numeros numeroTeste = new Numeros();
-            string test = numeroTeste.ConvertToWords("0,05");
+            Controlador numeroTeste = new Controlador();
+            string test = numeroTeste.ConverterParaExtenso("0,05");
 
             Assert.AreEqual(" cinco centavos de real", test);
         }
@@ -76,8 +79,8 @@ namespace Validar.Test
         [TestMethod]
         public void ValidarUmCentavo()
         {
-            Numeros numeroTeste = new Numeros();
-            string test = numeroTeste.ConvertToWords("0,01");
+            Controlador numeroTeste = new Controlador();
+            string test = numeroTeste.ConverterParaExtenso("0,01");
 
             Assert.AreEqual(" um centavo de real", test);
         }
@@ -85,8 +88,8 @@ namespace Validar.Test
         [TestMethod]
         public void ValidarDuzentos()
         {
-            Numeros numeroTeste = new Numeros();
-            string test = numeroTeste.ConvertToWords("200,00");
+            Controlador numeroTeste = new Controlador();
+            string test = numeroTeste.ConverterParaExtenso("200,00");
 
             Assert.AreEqual("duzentos reais", test);
         }
@@ -94,8 +97,8 @@ namespace Validar.Test
         [TestMethod]
         public void ValidarTrezentos()
         {
-            Numeros numeroTeste = new Numeros();
-            string test = numeroTeste.ConvertToWords("300,00");
+            Controlador numeroTeste = new Controlador();
+            string test = numeroTeste.ConverterParaExtenso("300,00");
 
             Assert.AreEqual("trezentos reais", test);
         }
@@ -103,8 +106,8 @@ namespace Validar.Test
         [TestMethod]
         public void ValidarTrezentosComDEzenaECentavos()
         {
-            Numeros numeroTeste = new Numeros();
-            string test = numeroTeste.ConvertToWords("310,25");
+            Controlador numeroTeste = new Controlador();
+            string test = numeroTeste.ConverterParaExtenso("310,25");
 
             Assert.AreEqual("trezentos e dez reais e vinte e cinco centavos", test);
         }
@@ -112,8 +115,8 @@ namespace Validar.Test
         [TestMethod]
         public void ValidarUmMilhao()
         {
-            Numeros numeroTeste = new Numeros();
-            string test = numeroTeste.ConvertToWords("1000000,00");
+            Controlador numeroTeste = new Controlador();
+            string test = numeroTeste.ConverterParaExtenso("1000000,00");
 
             Assert.AreEqual("um milhão de reais", test);
         }
@@ -121,8 +124,8 @@ namespace Validar.Test
         [TestMethod]
         public void ValidarCemMil()
         {
-            Numeros numeroTeste = new Numeros();
-            string test = numeroTeste.ConvertToWords("100000,00");
+            Controlador numeroTeste = new Controlador();
+            string test = numeroTeste.ConverterParaExtenso("100000,00");
 
             Assert.AreEqual("cem mil reais", test);
         }
@@ -130,8 +133,8 @@ namespace Validar.Test
         [TestMethod]
         public void ValidarNumeroGrandeMilhao()
         {
-            Numeros numeroTeste = new Numeros();
-            string test = numeroTeste.ConvertToWords("206699000,00");
+            Controlador numeroTeste = new Controlador();
+            string test = numeroTeste.ConverterParaExtenso("206699000,00");
 
             Assert.AreEqual("duzentos e seis milhões seiscentos noventa e nove mil reais", test);
         }
@@ -139,8 +142,8 @@ namespace Validar.Test
         [TestMethod]
         public void ValidarNumeroGrandeMilhaoComCentavos()
         {
-            Numeros numeroTeste = new Numeros();
-            string test = numeroTeste.ConvertToWords("206699000,05");
+            Controlador numeroTeste = new Controlador();
+            string test = numeroTeste.ConverterParaExtenso("206699000,05");
 
             Assert.AreEqual("duzentos e seis milhões seiscentos noventa e nove mil reais e cinco centavos", test);
         }
@@ -148,8 +151,8 @@ namespace Validar.Test
         [TestMethod]
         public void ValidarMilhaoComCentavos()
         {
-            Numeros numeroTeste = new Numeros();
-            string test = numeroTeste.ConvertToWords("1000000,05");
+            Controlador numeroTeste = new Controlador();
+            string test = numeroTeste.ConverterParaExtenso("1000000,05");
 
             Assert.AreEqual("um milhão de reais e cinco centavos", test);
         }
@@ -157,8 +160,8 @@ namespace Validar.Test
         [TestMethod]
         public void ValidarUmBilhao()
         {
-            Numeros numeroTeste = new Numeros();
-            string test = numeroTeste.ConvertToWords("1000000000,00");
+            Controlador numeroTeste = new Controlador();
+            string test = numeroTeste.ConverterParaExtenso("1000000000,00");
 
             Assert.AreEqual("um bilhão de reais", test);
         }
@@ -166,8 +169,8 @@ namespace Validar.Test
         [TestMethod]
         public void ValidarDezMilComCentavos()
         {
-            Numeros numeroTeste = new Numeros();
-            string test = numeroTeste.ConvertToWords("10000,05");
+            Controlador numeroTeste = new Controlador();
+            string test = numeroTeste.ConverterParaExtenso("10000,05");
 
             Assert.AreEqual("dez mil reais e cinco centavos", test);
         }
